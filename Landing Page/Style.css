@@ -1,0 +1,382 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+/* TOP NAV BOOTSTRAP */
+
+.navbar-nav {
+    background-color: orange;
+    width: 100%;
+  }
+  
+  .nav-item {
+    padding: 15px;
+  }
+  
+  #socialIcon {
+    display: flex;
+  }
+  
+  #socialIcon a {
+  
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: large;
+  }
+  
+  #socialIcon a:hover {
+    background-color: #fff;
+    color: orange;
+  }
+  
+  .search-wrapper #search {
+    height: 40px;
+    width: 300px;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+  }
+  
+  .search-wrapper button {
+    background-color: #fff;
+    border-radius: 0px 20px 20px 0px;
+    font-size: large;
+    height: 40px;
+    width: 50px;
+    border: none;
+  }
+  
+  .information-tab {
+    margin-top: 5px;
+  }
+  
+  #ph-number {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+  }
+  
+  #ph-number:hover {
+    color: #000;
+  }
+  
+  #link {
+    color: #fff;
+  }
+  
+  #link:hover {
+    color: #000;
+  }
+  
+  
+  /* main */
+  
+  .nav-Items {
+    padding: 20px;
+  }
+  
+  .nav-Items {
+    color: #fff;
+  }
+  
+  .nav-Items a img {
+    height: 200px;
+    padding: 20px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+  }
+  
+  .nav-Items .nav-link:hover {
+    color: orange;
+  }
+  
+  .nav-Items .btn {
+    margin-left: 90%;
+  
+    display: inline-block;
+    border: 50px;
+    border-color: #000;
+    background-color: orange;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman';
+    cursor: pointer;
+  }
+  
+  .nav-Items .btn:hover {
+    border: 1px solid black;
+    color: orangered;
+    background-color: white
+  }
+  
+  .coutry-wrapper {
+    padding-top: 10px;
+  }
+  
+  /* TOP NAV BOOTSTRAP */
+  
+  
+  
+  
+  
+/* Jumbotron */
+
+
+.carousel {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.carousel-inner {
+
+  background-color: grey;
+}
+
+.carousel-inner .row div:nth-child(2) {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.carousel-inner .row div:nth-child(2) span {
+
+  font-family: cursive;
+  font-size: 40px;
+
+}
+
+.carousel-inner .row div:nth-child(2) h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 90px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.carousel-inner .row div:nth-child(2) p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40px;
+
+}
+
+.carousel-inner .row div:nth-child(2) .btn {
+
+  display: inline-block;
+  border: 50px;
+  border-color: #000;
+  background-color: orange;
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman';
+  cursor: pointer;
+}
+
+.carousel-inner .row div:nth-child(2) .btn:hover {
+
+  color: orange;
+  background-color: white;
+  border-color: black;
+
+}
+
+@media screen  and (min-width: 1000px) {
+  .carousel-inner {
+    width: 100%;
+  }
+  .carousel-inner .row div:nth-child(2) h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+
+}
+
+@media screen  and (min-width: 500px) {
+  .carousel-inner {
+    width: 50%;
+  }
+  .carousel-inner .row div:nth-child(2) h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen  and (min-width: 250px) {
+  .carousel-inner {
+    width: 25%;
+  }
+  .carousel-inner .row div:nth-child(2) h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+
+
+/* shopByCategory */
+
+.shopByCategoryHeading{
+  padding-left: 45px;
+  padding-top: 30px;
+}
+
+
+.shopByCategory{
+  display: flex;
+  padding-left:35px ;
+  padding-right:35px ;
+  
+}
+
+
+.shopByCategory .card{
+  padding: 10px;
+  border: none;
+}
+
+.shopByCategory .card .card-img-overlay{
+  border: none;
+  left: 55%;
+  top: 25%;
+
+}
+
+.shopByCategory .card .card-img-overlay .btn{
+  display: inline-block;
+  border: 50px;
+  border-color: #000;
+  background-color: orange;
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman';
+  cursor: pointer;
+}
+
+.shopByCategory .card .card-img-overlay .btn:hover{
+  color: orange;
+  background-color: white;
+  border: 1px solid orange;
+}
+
+
+
+/* latestProduct */
+
+
+.latestProduct h1{
+  padding-left: 45px;
+  padding-top: 50px;
+}
+.latestProduct .cardGroup{
+ padding-left: 150px;
+ display: flex;
+}
+
+
+
+
+ .latestProduct .card{
+  position: relative;
+  padding: 20px;
+  border: none;
+  height: 500px;
+  width: 400px;
+  
+
+}
+
+.latestProduct .card img{
+ height: 350px;
+ width: 300px;
+}
+
+
+.latestProduct .card img:hover {
+  -webkit-filter: blur(2px);
+  filter: blur(20px);
+}
+
+ .card .price{
+  display: flex;
+  padding-left: 70px;
+
+}
+
+.latestProduct .card .priceWithDisc{
+  padding-left: 20px;
+  color: orange;
+  text-decoration: line-through;
+}
+
+.latestProduct .card .rating{
+  color: gold;
+  padding-left: 80px;
+}
+
+
+
+
+.latestProduct  .card-icons {
+  position: absolute;
+  bottom: 50%;
+  left: 40%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.latestProduct .card:hover .card-icons {
+  opacity: 1;
+}
+
+.latestProduct  .card-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+.latestProduct  .card-icons a:hover {
+  background-color: orange;
+  color: #333;
+}
+
+
+
+/* Footer */
+
+.text-center{
+  margin-top: 20px;
+}
+
+.col-md-2 a{
+text-decoration: none;
+}
+
+.col-md-3 a{
+  text-decoration: none;
+  }
